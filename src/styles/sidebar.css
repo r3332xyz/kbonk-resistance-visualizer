@@ -1,0 +1,125 @@
+/* Sidebar styles */
+.sidebar {
+    width: 320px;
+    background: #111111;
+    border-right: 1px solid #222;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.control-group {
+    margin-bottom: 15px;
+}
+
+.control-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #888;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.control-input {
+    width: 100%;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    color: #fff;
+    padding: 10px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+.control-input:focus {
+    outline: none;
+    border-color: #00d4aa;
+}
+
+.refresh-btn {
+    width: 100%;
+    background: #00d4aa;
+    color: #000;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 20px;
+}
+
+.refresh-btn:hover {
+    background: #00b894;
+    transform: translateY(-1px);
+}
+
+.orders-list {
+    background: #1a1a1a;
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.list-header {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    color: #fff;
+    border-bottom: 1px solid #333;
+    padding-bottom: 8px;
+}
+
+.order-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid #222;
+    font-size: 12px;
+}
+
+.order-item:last-child {
+    border-bottom: none;
+}
+
+.order-price {
+    font-weight: 600;
+}
+
+.buy-price {
+    color: #00d4aa;
+}
+
+.sell-price {
+    color: #ff4757;
+}
+
+.order-size {
+    color: #ccc;
+}
+
+.stats-section {
+    background: #1a1a1a;
+    border-radius: 6px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.stat-label {
+    color: #888;
+}
+
+.stat-value {
+    font-weight: 600;
+}
